@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+ <button onClick="clickCounter()" type="button">
+        Click here 
+      </button>
+      <p>You clicked: <a id="count">0 </a> times</p>
+
+<script>
+	
+    var count = 0
+    function clickCounter() {
+    	count ++
+    	document.getElementById("count").innerHTML = count;
+	}
+	
+</script>
+</body>
+</html>
